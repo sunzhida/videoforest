@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+          content="Comparative Study of Visual Designs for Stress Management">
+    <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VideoForest</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J23Z26SBHV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-J23Z26SBHV');
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Noto+Sans|Roboto"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="icon" href="./static/images/favicon.ico">
+
+    <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="container">
+    <header class="sticky-top">
+        <div class="d-flex flex-column flex-md-row align-items-center mb-4 border-bottom">
+            <a href="https://zhdsun.github.io/"
+               class="d-flex align-items-center link-body-emphasis text-decoration-none">
+                <span class="text-center py-3 mt-2 mt-md-0 ms-md-auto fs-4"><i class="fa-solid fa-house"></i></span>
+            </a>
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">About</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#abstract">Abstract</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#content">Content</a>
+                <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#cite">Cite</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="row">
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <h3 class="">VideoForest: Interactive Visual Summarization of Video Streams Based on Danmu Data</h3>
+                    <div class="publication-authors">
+                        <span class="author-block">
+                            <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                               href="https://zhdsun.github.io/">Zhida Sun</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                            <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                               href="https://mingfeisun.github.io/">Mingfei Sun</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                            <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                               href="https://nancao.org/">Nan Cao</a><sup>2</sup>,</span>
+                        <span class="author-block">
+                            <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                               href="https://www.cse.ust.hk/~mxj/">Xiaojuan Ma</a><sup>1</sup>.</span>
+                    </div>
+                    <div class="publication-authors">
+                        <span class="author-block"><sup>1</sup>The Hong Kong University of Science and Technology,</span>
+                        <span class="author-block"><sup>2</sup>TongJi University.</span>
+                    </div>
+                    <p>
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3002151.3002159"
+                           class="btn btn-outline-dark rounded-pill my-2">
+                            <span class="icon">
+                                    <i class="fa-regular fa-file"></i>
+                                </span>
+                            <span>Paper</span></a>
+                        <a href="./static/slide/sun_siggraphasia16_slide.pdf"
+                           class="btn btn-outline-dark rounded-pill my-2">
+                            <span class="icon">
+                                    <i class="fa-regular fa-file-powerpoint"></i>
+                                </span>
+                            <span>Slide</span></a>
+                        <a href="https://vimeo.com/213407956"
+                           class="btn btn-outline-dark rounded-pill my-2">
+                            <span class="icon">
+                                    <i class="fa-solid fa-film"></i>
+                                </span>
+                            <span>Video</span></a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="ratio ratio-16x9">
+                        <iframe title="YouTube video" src="https://www.youtube.com/embed/cgBoJIupkh4"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div class="caption py-3">
+                        <p>VideoForest is a visualization system designed to convert an input video stream augmented
+                            with danmu data into a visual summary of its content with highlights along the storyline
+                            under users’ supervision.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 container" id="abstract">
+            <div class="row">
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-tertiary scmargin">
+                    <div class="px-0">
+                        <h4 class="text-center">Abstract</h4>
+                        <p>
+                            Emerging online video-sharing websites such as YouTube allow users to access a huge number
+                            of videos and generate feedback via reviews and/or live comments (a.k.a. danmu), making it
+                            possible to summarize videos based on media and user responses collectively. A video summary
+                            produced by existing techniques may not fully capture the audience's perception of and
+                            reaction to the source video, and thus may be less reflective. In this paper, we introduce
+                            VideoForest, a visualization system designed to convert an input video augmented with danmu
+                            commentary data into a tree-like visual summary of content highlights under users'
+                            supervision. The proposed visualization design employs a forest metaphor. The overall
+                            summary of different video sessions is illustrated as scene trees on top of the session
+                            timeline ground, with the roots depicting the corresponding danmu messages. VideoForest can
+                            also generate a detailed synopsis of the user-selected video segment(s) as a compact
+                            storyline in the form of circle packing. We evaluate our system via case studies with real
+                            video data based on experts' feedback. The results suggest the power and potential of the
+                            system.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 container" id="content">
+            <div class="row">
+                <div class="py-5 col-lg-6 col-md-8 mx-auto">
+                    <h4>Forest-Metaphor Visual Design</h4>
+                    <div class="py-4 thumbnail">
+                        <img src="./static/images/sun_siggraphasia16_teaser.png" class="img-fluid img-thumbnail col"
+                             alt="siggraphasia16_teaser">
+                        <div class="caption">
+                            <p>In this design, session-level key-frames of the video are clustered and visualized in
+                                scene trees (a) planted in a video timeline ground (b,c) with roots (d) showing the
+                                corresponding danmu posts. The video timeline ground consists of (b) a heatmap view that
+                                presents the contextual information extracted from
+                                danmu posts such as sentiments and volume and, (c) an interactive timeline view that
+                                enables users to specify the video sessions of interest.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h4>System User Interface</h4>
+                    <div class="py-4 thumbnail">
+                        <img src="./static/images/ui.png" class="img-fluid img-thumbnail col"
+                             alt="siggraphasia16_ui">
+                        <div class="caption">
+                            <p>The VideoForest system’s user interface consists of (a) the primary timeline summary view and (b) the session summary view.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 container" id="cite">
+            <div class="row">
+                <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-tertiary scmargin">
+                    <div class="px-0">
+                        <h4 class="text-center">BibTeX</h4>
+                        <pre><code>
+                            @inproceedings{10.1145/3002151.3002159,
+                            author = {Sun, Zhida and Sun, Mingfei and Cao, Nan and Ma, Xiaojuan},
+                            title = {VideoForest: interactive visual summarization of video streams based on danmu data},
+                            year = {2016},
+                            isbn = {9781450345477},
+                            publisher = {Association for Computing Machinery},
+                            address = {New York, NY, USA},
+                            url = {https://doi.org/10.1145/3002151.3002159},
+                            doi = {10.1145/3002151.3002159},
+                            booktitle = {SIGGRAPH ASIA 2016 Symposium on Visualization},
+                            articleno = {10},
+                            numpages = {8},
+                            keywords = {multimedia (image/video/music) visualization},
+                            location = {Macau},
+                            series = {SA '16}
+                            }
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="footer text-center opensans light">
+    <div class="border-top py-3 mb-3">
+        <small>Copyright © 2016 - Present &emsp; <img src="./static/images/z.svg" alt="Logo"> &emsp; Zhida Sun</small>
+    </div>
+    <p class="py-3"></p>
+</footer>
+
+</body>
+</html>

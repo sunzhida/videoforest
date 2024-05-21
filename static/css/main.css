@@ -1,0 +1,102 @@
+@media (min-width: 48em) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/*For the region cannot visit google*/
+@font-face {
+    font-family: 'Homemade Apple';
+    src: url('../fonts/apple/HomemadeApple.ttf') format('truetype'),
+    url('../fonts/apple/HomemadeApple.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.5em;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Regular-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/opensans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'), /* Super Modern Browsers */ url('../fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/opensans/OpenSans-Regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.light {
+    font-weight: 300 !important;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.extrabold {
+    font-weight: 800;
+}
+
+h4 {
+    text-shadow: 1px 1px 1px #ddd;
+}
+
+.hkustBlue {
+    color: #003366;
+}
+
+.hkustGold {
+    color: #996600;
+}
+
+.badge-hkust {
+    background-color: #003366;
+}
+
+span.venue {
+    padding: 3px 0px;
+    vertical-align: middle;
+}
+
+.circle {
+    display: block;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.table td {
+    vertical-align: middle !important;
+}
+.table th {
+    vertical-align: middle !important;
+}
+
+
+header {
+    background-color: #fffc;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+}
+
+.scmargin {
+    scroll-margin: 69px;
+}
+
+/*.cover {*/
+/*-moz-box-shadow:    inset 0 0 10px #000000;*/
+/*-webkit-box-shadow: inset 0 0 10px #000000;*/
+/*box-shadow:         inset 0 0 10px #000000;*/
+/*}*/
